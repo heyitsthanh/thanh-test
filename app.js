@@ -2,20 +2,18 @@ var express = require('express');
 var app = express();
 
 app.get('/', function (req, res) {
-    res.send('hello again');
+    res.sendFile('views/home.html', {root: __dirname });
 });
 
-app.get('/thanh', function (req, res) {
-    res.send('hello again thanh');
+
+app.get('/home2', function (req, res) {
+    res.sendFile('views/home2.html', {root: __dirname });
 });
 
-app.get('/thanh2', function (req, res) {
-    res.send('hello again thanh number two cuz i got it');
+app.get('/home3', function (req, res) {
+    res.sendFile('views/home3.html', {root: __dirname });
 });
 
-app.get('/secret', function(req, res) {
-    res.send('i wanted to show you how web storm handles merging');
-});
 
 app.listen(3000, function () {
     console.log('Example app listening on port 3000!');
