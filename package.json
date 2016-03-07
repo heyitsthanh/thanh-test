@@ -1,0 +1,22 @@
+{
+  "name": "github-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heyitsthanh/thanh-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/heyitsthanh/thanh-test/issues"
+  },
+  "homepage": "https://github.com/heyitsthanh/thanh-test#readme",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}
